@@ -1,0 +1,11 @@
+# En esta sección de enseña como se debería de organizar las carpetas para los requerimientos:
+
+# Estos requerimientos se muestran con:
+$ pip freeze      ||       pip list
+
+# Extracción de requerimientos
+$ pip freeze > requirements.txt
+
+# Instalación masiva de requerimientos
+$ pip install -r requirements.txt
+
